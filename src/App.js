@@ -1,9 +1,11 @@
 import React from "react";
+import Characters from "./components/Characters";
 
 function App() {
   return (
     <div className="App">
-<h1>Hello</h1>
+        <h1>Les Simpson</h1>
+          <Characters />
     </div>
   );
 }
